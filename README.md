@@ -14,6 +14,8 @@ A production-ready system that processes conversation data to:
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Quick Start with Streamlit UI](#quick-start-with-streamlit-ui-)
+  - [Basic Usage](#basic-usage)
 - [API Documentation](#api-documentation)
 - [Project Structure](#project-structure)
 - [Technical Details](#technical-details)
@@ -274,6 +276,33 @@ pip install -r requirements.txt
 ---
 
 ## Usage
+
+### Quick Start with Streamlit UI 🚀
+
+The easiest way to interact with the chatbot is using the Streamlit interface:
+
+```bash
+# Windows
+run_streamlit.bat
+
+# Mac/Linux or cross-platform
+python run_streamlit.py
+
+# Or manually
+streamlit run streamlit_app.py
+```
+
+The UI opens at: **http://localhost:8501**
+
+**Features:**
+- 💬 Interactive chat with intent classification
+- 👤 Persona explorer with traits and habits
+- 📚 Topics visualization and analysis
+- 📊 System dashboard with metrics
+
+See [STREAMLIT_QUICKSTART.md](STREAMLIT_QUICKSTART.md) for details.
+
+---
 
 ### Basic Usage
 
@@ -715,5 +744,7 @@ If you use this system in research, please cite:
   url = {https://github.com/yourusername/rag-system}
 }
 ```
-#   r a g - s y s t e m  
+#   r a g - s y s t e m 
+ 
+ #   r a g - s y s t e m  
  
